@@ -1,13 +1,40 @@
+body {
+    font-family: "roboto",sans-serif;
+}
+
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+}
+
 .header {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 20px 150px;
+    padding: 20px 200px;
 }
 
-.header-link {
+.header-link, p, .image  {
     color: #E5E7EB;
     font-size: 18px;
+}
+
+.image {
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+
+.left {
+    
+    width: 450px;
 }
 
 .links {
@@ -21,3 +48,19 @@
     font-weight: 700;
 }
 
+.main-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.right {
+    
+}
+
+.section-one {
+    display: flex;
+    background-color: #1F2937;
+    padding: 100px 200px;
+    justify-content: space-between;
+}
