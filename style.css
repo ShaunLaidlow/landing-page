@@ -64,3 +64,41 @@ button {
     padding: 100px 200px;
     justify-content: space-between;
 }
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding: 30px;
+}
+
+.section-two p {
+    color: grey;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.square-image {
+  
+    width: 150px;
+    height: 150px;
+    border: solid 3px;
+    border-color: #3882F6;
+    border-radius: 10px;
+}
+
+.item {
+    width: 150px;
+    text-align: center;
+}
